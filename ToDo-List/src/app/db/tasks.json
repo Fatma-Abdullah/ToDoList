@@ -1,0 +1,29 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Praying",
+      "desc": "Take a shower and pray for 10 minutes"
+    },
+    {
+      "id": 2,
+      "title": "Eating",
+      "desc": "Having healthy breakfast for 15 minutes"
+    },
+    {
+      "id": 3,
+      "title": "Shopping",
+      "desc": "buying vegetables and fruit for 2 hours"
+    },
+    {
+      "id": 4,
+      "title": "Cooking",
+      "desc": "Cooking for lunch for 1 hours"
+    },
+    {
+      "id": 5,
+      "title": "Sleeping",
+      "desc": "Sleeping for 6 hours"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+<div class="container">
+  <h1 class="text-center mt-3">To Do List</h1>
+
+  <button class="btn btn-primary" (click)="Add()">Add New</button>
+  <table class="table table-striped">
+    <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Task</th>
+      <th scope="col">Description</th>
+      <th scope="col">Action</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let item of tasks">
+      <th scope="row">{{item.id}}</th>
+      <td>{{item.title}}</td>
+      <td>{{item.desc}}</td>
+      <td>
+        <a class="btn btn-info mr-3" href="#" role="button" (click)="Edit(item)">Edit</a>
+        <a class="btn btn-danger" href="#" role="button" (click)="Delete(item.id)">Delete</a>
+      </td>
+    </tr>
+
+    </tbody>
+  </table>
+
+  <!-- <button class="btn btn-lg btn-outline-primary" (click)="open()">Launch demo modal</button> -->
+</div>
